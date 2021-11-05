@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TimeTableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303540">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="65dp"
+        android:fontFamily="sans-serif-light"
+        android:text="TODAY TASKS"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/timeTableTasks"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:text="My timetable: "
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:ignore="NotSibling"></TextView>
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="135dp"
+        android:background="#3B3F5B">
+
+
+        <LinearLayout
+            android:id="@+id/timeTableTasks"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:orientation="vertical"></LinearLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/sampleTasks"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="345dp"
+        android:text="Tasks: "
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:ignore="NotSibling"></TextView>
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="390dp"
+        android:background="#3B3F5B">
+
+        <LinearLayout
+            android:id="@+id/sampleTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

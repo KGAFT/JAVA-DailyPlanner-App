@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#303540"
+    tools:context=".Activities.Fragments.AddNewGoalFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/AddNewGoalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#303540">
+
+        <EditText
+            android:id="@+id/AddMainInfo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:textColor="@color/white"
+            android:hint="@string/AddNewGoalHint"></EditText>
+
+        <TextView
+            android:id="@+id/RemindsHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AddMainInfo"
+            android:textColor="@color/white"
+            android:text="Reminds in:"></TextView>
+
+
+
+        <TextView
+            android:id="@+id/HoursHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/RemindsHint"
+            android:textColor="@color/white"
+            android:text="Hours:"></TextView>
+
+        <EditText
+            android:id="@+id/AddHoursInfo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/RemindsHint"
+            android:layout_toRightOf="@id/HoursHint"
+            android:textColor="@color/white"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/MinutesHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/RemindsHint"
+            android:layout_toRightOf="@id/AddHoursInfo"
+            android:textColor="@color/white"
+            android:text="Minutes:"></TextView>
+
+        <EditText
+            android:id="@+id/AddMinutesInfo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/RemindsHint"
+            android:layout_toRightOf="@id/MinutesHint"
+            android:textColor="@color/white"
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/AddToTimeTableHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/HoursHint"
+            android:textColor="@color/white"
+            android:text="Add to mine time table"></TextView>
+
+        <CheckBox
+            android:id="@+id/IsInTimeTable"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/HoursHint"
+            android:textColor="@color/white"
+            android:shadowColor="@color/white"
+            android:layout_toRightOf="@id/AddToTimeTableHint"></CheckBox>
+
+        <Spinner
+            android:id="@+id/spinnerInput"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/AddToTimeTableHint"
+            android:textColor="@color/white"
+            android:outlineAmbientShadowColor="@color/white"
+            android:outlineSpotShadowColor="@color/white"
+            android:entries="@array/daysOfWeek"></Spinner>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/AddButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerInput"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#673AB7"
+            app:rippleColor="#673AB7"
+            app:srcCompat="@android:drawable/ic_menu_add"
+            tools:ignore="MissingConstraints"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+    </RelativeLayout>
+
+</FrameLayout>

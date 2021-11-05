@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/activity_add_goal.xml" value="0.328125" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/activity_all_goals.xml" value="0.32916666666666666" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/activity_edit.xml" value="0.55" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/activity_main2.xml" value="0.47690217391304346" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/activity_main_fragment.xml" value="0.4701086956521739" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/fragment_Goal.xml" value="0.2726449275362319" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/fragment_activity_main_fragment.xml" value="0.32916666666666666" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/fragment_add_new_goal.xml" value="0.33" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/fragment_all_goals.xml" value="0.5541666666666667" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/fragment_blank.xml" value="0.328125" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/fragment_goal.xml" value="0.31145833333333334" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/fragment_spinner.xml" value="0.3182291666666667" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/goal_layout.xml" value="0.2817028985507246" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/layout/tool_bar_items.xml" value="0.4701086956521739" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/menu/menu_main.xml" value="0.32916666666666666" />
+        <entry key="..\:/User/Documents/projects/Android/DailyPlanner/app/src/main/res/menu/tool_bar_items.xml" value="0.5541666666666667" />
+        <entry key="app/src/main/res/layout/activity_add_goal.xml" value="0.5432291666666667" />
+        <entry key="app/src/main/res/layout/fragment_add_new_goal.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

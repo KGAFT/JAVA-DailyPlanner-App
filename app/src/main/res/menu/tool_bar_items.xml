@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/timeTableButton"
+        android:color="#A7A7A7"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:title="Today"></item>
+    <item
+        android:id="@+id/AllTaskssButton"
+        android:color="#A7A7A7"
+        android:icon="@android:drawable/btn_star"
+        android:title="Week"></item>
+</menu>
